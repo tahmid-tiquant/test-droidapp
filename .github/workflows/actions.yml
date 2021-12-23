@@ -41,6 +41,7 @@ jobs:
         with:
           name: app
           path: app/build/outputs/apk/debug/app-debug.apk
+#     # Testing app bundle for play store publishing
       - name: Build Release AAB
         id: buildRelease
         run: bash ./gradlew bundleRelease
